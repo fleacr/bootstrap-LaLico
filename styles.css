@@ -1,0 +1,11 @@
+.logo-nav{
+    height: 50px;
+    width: auto;
+}
+
+/*Bootstrap*/
+
+.logo-nav:hover {
+    transform: scale(1.1); /* Aumenta la escala al 110% en el hover */
+    transition: transform 0.3s ease; /* Agrega una transición suave */
+}
