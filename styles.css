@@ -18,6 +18,43 @@ body{
     background-color: rgb(2, 2, 2);
 }
 
+.right-imperial {
+  transform: rotate(35deg); /* Aplicar rotación de 30 grados */
+  height: 400px;
+  width: auto;
+  margin-left: -200px;
+}
+
+.left-imperial {
+  transform: rotate(-35deg); /* Aplicar rotación de 30 grados */
+  height: 400px;
+  width: auto;
+  margin-right: -200px;
+}
+
+.imperial-transition-right {
+  opacity: 0; /* Empieza con opacidad 0 */
+  transition: opacity 10s ease; /* Aplica una transición suave de 5 segundos */
+}
+
+.imperial-transition-right.loaded {
+  opacity: 100;
+}
+
+.imperial-transition-left {
+  opacity: 0; /* Empieza con opacidad 0 */
+  transition: opacity 15s ease; /* Aplica una transición suave de 5 segundos */
+}
+
+.imperial-transition-left.loaded {
+  opacity: 100;
+}
+
+.position-relative-imperial {
+  position: relative;
+  z-index: -1; /* Coloca las imágenes ligeramente por debajo */
+}
+
 /* Cambiar el color del icono de hamburguesa en el modo colapsado */
 .navbar .navbar-toggler-icon {
     background-color: rgb(114, 114, 114); /* Cambiar a blanco o el color que prefieras */
@@ -36,7 +73,7 @@ body{
 /* Transición de opacidad */
 .opacity-transition {
     opacity: 0; /* Empieza con opacidad 0 */
-    transition: opacity 5s ease; /* Aplica una transición suave de 5 segundos */
+    transition: opacity 3s ease; /* Aplica una transición suave de 5 segundos */
   }
   
   /* Cambiar la opacidad a 1 al cargar */
