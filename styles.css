@@ -18,20 +18,6 @@ body{
     background-color: rgb(2, 2, 2);
 }
 
-.right-imperial {
-  transform: rotate(35deg); /* Aplicar rotación de 30 grados */
-  height: 400px;
-  width: auto;
-  margin-left: -200px;
-}
-
-.left-imperial {
-  transform: rotate(-35deg); /* Aplicar rotación de 30 grados */
-  height: 400px;
-  width: auto;
-  margin-right: -200px;
-}
-
 
 .imperial-transition-right {
   opacity: 0; /* Empieza con opacidad 0 */
@@ -51,10 +37,10 @@ body{
   opacity: 100;
 }
 
-.position-relative-imperial {
+/*.position-relative-imperial {
   position: relative;
-  z-index: -1; /* Coloca las imágenes ligeramente por debajo */
-}
+  z-index: -1;  Coloca las imágenes ligeramente por debajo
+} */
 
 /* Cambiar el color del icono de hamburguesa en el modo colapsado */
 .navbar .navbar-toggler-icon {
@@ -63,9 +49,6 @@ body{
 }
 
 .lico-img{
-    height: auto;
-    width: 700px;
-    margin: 45px;
     border-radius: 13%;
     opacity: 70%;
     border: 1px solid orange;
