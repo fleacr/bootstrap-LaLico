@@ -32,6 +32,7 @@ body{
   margin-right: -200px;
 }
 
+
 .imperial-transition-right {
   opacity: 0; /* Empieza con opacidad 0 */
   transition: opacity 10s ease; /* Aplica una transición suave de 5 segundos */
@@ -43,7 +44,7 @@ body{
 
 .imperial-transition-left {
   opacity: 0; /* Empieza con opacidad 0 */
-  transition: opacity 15s ease; /* Aplica una transición suave de 5 segundos */
+  transition: opacity 15s ease; /* Aplica una transición suave de 15 segundos */
 }
 
 .imperial-transition-left.loaded {
@@ -104,6 +105,10 @@ body{
   @keyframes blink-caret {
     from, to { border-color: transparent }
     50% { border-color: orange }
+  }
+
+  .border-outset {
+    border: 3px outset; /* Establece el estilo de borde outset */
   }
 
 /*Bootstrap*/
