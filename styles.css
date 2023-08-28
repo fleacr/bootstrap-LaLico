@@ -21,26 +21,25 @@ body{
 
 .imperial-transition-right {
   opacity: 0; /* Empieza con opacidad 0 */
-  transition: opacity 10s ease; /* Aplica una transición suave de 5 segundos */
+  transition: opacity 10s ease; /* Aplica una transición suave de 10 segundos */
+  margin-left: 0%;
 }
 
 .imperial-transition-right.loaded {
   opacity: 100;
+  margin-left:-40%;
 }
 
 .imperial-transition-left {
   opacity: 0; /* Empieza con opacidad 0 */
-  transition: opacity 15s ease; /* Aplica una transición suave de 15 segundos */
+  transition: opacity 10s ease; /* Aplica una transición suave de 5 segundos */
+  margin-left: 0%;
 }
 
 .imperial-transition-left.loaded {
   opacity: 100;
+  margin-left:40%;
 }
-
-/*.position-relative-imperial {
-  position: relative;
-  z-index: -1;  Coloca las imágenes ligeramente por debajo
-} */
 
 /* Cambiar el color del icono de hamburguesa en el modo colapsado */
 .navbar .navbar-toggler-icon {
@@ -49,9 +48,11 @@ body{
 }
 
 .lico-img{
-    border-radius: 13%;
+    border-radius: 10%;
     opacity: 70%;
-    border: 1px solid orange;
+    border: 2px solid orange;
+    margin-bottom: 10%;
+    margin-top: 10%;
 }
 
 /* Transición de opacidad */
