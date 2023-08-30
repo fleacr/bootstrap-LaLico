@@ -2,9 +2,7 @@
 
 body{
     font-family: "Helvetica Now Text"; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-image: url(images/background.svg)
+    background-color: #E9F1FA;
 }
 
 .logo-nav{
@@ -18,26 +16,23 @@ body{
     background-color: rgb(2, 2, 2);
 }
 
-
 .imperial-transition-right {
-  opacity: 0; /* Empieza con opacidad 0 */
-  transition: opacity 10s ease; /* Aplica una transición suave de 10 segundos */
-  margin-left: 0%;
+  opacity: 0;
+  transition: opacity 10s ease;
 }
 
 .imperial-transition-right.loaded {
   opacity: 100;
   margin-left:-40%;
 }
-
+ 
 .imperial-transition-left {
-  opacity: 0; /* Empieza con opacidad 0 */
-  transition: opacity 10s ease; /* Aplica una transición suave de 5 segundos */
-  margin-left: 0%;
+  opacity: 0;
+  transition: opacity 10s ease; 
 }
 
 .imperial-transition-left.loaded {
-  opacity: 100;
+  opacity: 100; 
   margin-left:40%;
 }
 
