@@ -45,9 +45,8 @@ body{
 .lico-img{
     border-radius: 10%;
     opacity: 70%;
-    border: 2px solid orange;
-    margin-bottom: 10%;
-    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
 
 /* Transición de opacidad */
