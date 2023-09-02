@@ -59,6 +59,12 @@ body{
     opacity: 100;
   }
 
+  .shadows{
+    box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 13px 17px 0px rgba(0,0,0,0.75);
+  }
+
 .typewriter h1 {
     color: rgb(255, 255, 255);
     overflow: hidden; /* Ensures the content is not revealed until the animation */
